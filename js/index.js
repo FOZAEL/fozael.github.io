@@ -1170,7 +1170,7 @@
       this.$robust.velocity({
         top: '100%',
         rotateZ: -50,
-        marginTop: -55
+        marginTop: -80
       }, {
         delay: delay * this.s,
         easing: 'easeInQuad',
