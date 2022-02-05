@@ -57,7 +57,7 @@ function Content() {
       <Block factor={1} offset={0}>
         <Block factor={1.2}>
           <Text left size={w * 0.06} position={[-w / 2.2, 0.6, -1]} color="#f39c12">
-            AfghanvTeam
+            NovavTeam
           </Text>
         </Block>
         <Block factor={1.0}>
@@ -105,13 +105,13 @@ function App() {
       <div className="frame">
         <h1 className="frame__title">The way to do is to be. -Lao Tzu</h1>
         <div className="frame__links">
-          <a className="frame__link" href="http://facebook.com/afghanvteam">
+          <a className="frame__link" href="http://facebook.com/Novavteam">
             Meta
           </a>
-          <a className="frame__link" href="https://twitter.com/afghanvteam">
+          <a className="frame__link" href="https://twitter.com/Novavteam">
             Twitter
           </a>
-          <a className="frame__link" href="https://github.com/afghanvteam">
+          <a className="frame__link" href="https://github.com/Novavteam">
             GitHub
           </a>
         </div>
