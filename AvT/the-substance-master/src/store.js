@@ -10,7 +10,7 @@ const state = {
       offset: 1,
       factor: 1.75,
       header: "Skills",
-      image: "/photo-1515036551567-bf1198cccc35.jpeg",
+      image: "/photo-1515036551567-bf1198cccc35.png",
       aspect: 1.51,
       text: " "
     },
