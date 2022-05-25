@@ -54,9 +54,9 @@ strong {
   width: 100%;
   max-width: 1140px;
   max-height: 640px;
-  padding: 8rem 6rem;
+  padding: 5rem 5rem;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   background: rgba(255, 255, 255, 0.375);
   box-shadow: 0 0.75rem 2rem 0 rgba(0, 0, 0, 0.1);
   border-radius: 2rem;
@@ -196,4 +196,62 @@ a {
   .overlay__btn:first-child {
     margin-bottom: 1rem;
   }
+}
+
+ /* #card__buttons {
+  padding: 0 15px;
+} */
+#card__buttons a {
+  /* color: #9099ae; */
+  border: 2px solid transparent;
+  border-radius: 100px;
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  text-align: center;
+  padding: 0;
+  /* margin: 0 5px; */
+  transition: all 0.4s linear;
+  position: relative;
+  z-index: 8;
+}
+
+#card__buttons a[data-social=none].active, #card__buttons a[data-social=none]:hover {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+#card__buttons a[data-social=dribbble].active, #card__buttons a[data-social=dribbble]:hover {
+  color: #ea4c89;
+  border-color: #ea4c89;
+}
+#card__buttons a[data-social=behance].active, #card__buttons a[data-social=behance]:hover {
+  color: #1769ff;
+  border-color: #1769ff;
+}
+#card__buttons a[data-social=Telegram].active, #card__buttons a[data-social=Telegram]:hover {
+  color: #0077b5;
+  border-color: #0077b5;
+}
+#card__buttons a[data-social=twitter].active, #card__buttons a[data-social=twitter]:hover {
+  color: #55acee;
+  border-color: #55acee;
+}
+#card__buttons a[data-social=instagram].active, #card__buttons a[data-social=instagram]:hover {
+  color: #ea4c89;
+  border-color: #ea4c89;
+}
+#card__buttons a[data-social=Telegram].active, #card__buttons a[data-social=vimeo]:hover {
+  color: #1ab7ea;
+  border-color: #1ab7ea;
+}
+#card__buttons a.active {
+  background-color: white;
+}
+
+ul{
+  list-style: none;
+}
+
+ul li{
+  display: inline;
 }
