@@ -1,0 +1,195 @@
+{
+  "build": {
+    "engine": "Flash-Rive Headless TypeScript API",
+    "bytes": 1154400,
+    "artboards": 6,
+    "signedScripts": true,
+    "builtAt": "2026-11-22T14:17:54.283Z"
+  },
+  "artboards": {
+    "SignalField": {
+      "vm": {
+        "activity": "number",
+        "pointerX": "number",
+        "pointerY": "number",
+        "waveSeq": "number",
+        "waveX": "number",
+        "waveY": "number"
+      },
+      "inputs": {},
+      "events": [],
+      "width": 1400,
+      "height": 700,
+      "meta": {
+        "title": "Signal Field",
+        "subtitle": "Reactive dark obsidian blueprint backdrop",
+        "features": [
+          "Compiled Luau Node",
+          "ViewModel Data Binding",
+          "Magnetic Pointer Contours",
+          "Click-Triggered Square Grid Wave"
+        ],
+        "script": "field.luau"
+      }
+    },
+    "TopologyStage": {
+      "vm": {
+        "chaos": "number",
+        "era": "number",
+        "pointerX": "number",
+        "pointerY": "number",
+        "traffic": "number"
+      },
+      "inputs": {
+        "scan": "trigger"
+      },
+      "events": [
+        "stage_ping"
+      ],
+      "width": 1080,
+      "height": 520,
+      "meta": {
+        "title": "Cloud Microservices Topology",
+        "subtitle": "4 real production cloud diagrams with native SVG icons + Luau flow engine",
+        "features": [
+          "36 Native SVG-Imported Cloud Icons",
+          "Full-Width Edge-Aligned VPC / AKS / NOC Zones",
+          "Compiled Luau Flow & Failover Engine",
+          "Circuit-Breaker 503 HA Rerouting",
+          "4-Era State Machine Cross-Fade"
+        ],
+        "script": "topology.luau"
+      }
+    },
+    "PipelineConveyor": {
+      "vm": {
+        "boost": "number",
+        "doneMask": "number",
+        "pointerX": "number",
+        "pointerY": "number",
+        "preset": "number",
+        "runMode": "number",
+        "s1": "string",
+        "s2": "string",
+        "s3": "string",
+        "s4": "string",
+        "s5": "string",
+        "s6": "string",
+        "st1": "number",
+        "st2": "number",
+        "st3": "number",
+        "st4": "number",
+        "st5": "number",
+        "st6": "number",
+        "stackLabel": "string",
+        "statusLabel": "string"
+      },
+      "inputs": {
+        "deploy": "trigger"
+      },
+      "events": [
+        "pipeline_run"
+      ],
+      "width": 960,
+      "height": 238,
+      "meta": {
+        "title": "Branching CI/CD DAG",
+        "subtitle": "Clean parallel GitOps DAG without bottom clutter bars",
+        "features": [
+          "Parallel Branching Luau DAG",
+          "6 Dynamic Terminal Stage Pills",
+          "Hover Branch Highlighting",
+          "Terminal-Driven Stage Progress"
+        ],
+        "script": "pipeline_dag.luau"
+      }
+    },
+    "SkillsOrbital": {
+      "vm": {
+        "domain": "number",
+        "hubCode": "string",
+        "pointerX": "number",
+        "pointerY": "number"
+      },
+      "inputs": {},
+      "events": [
+        "domain_code",
+        "domain_obs",
+        "domain_sec",
+        "domain_k8s",
+        "domain_aws",
+        "domain_azure",
+        "domain_all"
+      ],
+      "width": 720,
+      "height": 660,
+      "meta": {
+        "title": "Capability Astrolabe",
+        "subtitle": "18 real SVG technology icons inside a Luau spring astrolabe",
+        "features": [
+          "18 Native SVG-Imported Tech Icons",
+          "Compiled Luau Spring Polygon & Needle",
+          "Cross-Domain Bezier Synergy Bridges",
+          "7-State Domain Focus Machine",
+          "Bidirectional Clickable Index Sync"
+        ],
+        "script": "skills_field.luau"
+      }
+    },
+    "MetricDial": {
+      "vm": {
+        "caption": "string",
+        "grabbed": "number",
+        "readout": "string",
+        "unit": "string",
+        "value": "number"
+      },
+      "inputs": {
+        "grab": "boolean"
+      },
+      "events": [
+        "release",
+        "grab"
+      ],
+      "width": 360,
+      "height": 360,
+      "meta": {
+        "title": "Trajectory Morph",
+        "subtitle": "Abstract 12-vertex morphing vector sculpture for career progression",
+        "features": [
+          "6-Shape Abstract Luau Morph",
+          "Orbital Drag Track & Tip Bead",
+          "3 Bound Dynamic Text Runs",
+          "Pointer Drag Event Bridge"
+        ],
+        "script": "trajectory_morph.luau"
+      }
+    },
+    "CredentialStage": {
+      "vm": {
+        "active": "number",
+        "caption": "string",
+        "hover": "number",
+        "pointerX": "number",
+        "pointerY": "number",
+        "readout": "string",
+        "unit": "string"
+      },
+      "inputs": {},
+      "events": [],
+      "width": 360,
+      "height": 380,
+      "meta": {
+        "title": "Credential Strata",
+        "subtitle": "Interactive 6-layer 3D isometric verification stack with parallax & live emblems",
+        "features": [
+          "6-Layer 3D Isometric Glass Stack",
+          "Spring-Parted Active Layer & Scan Beam",
+          "Pointer Tilt Parallax & Direct Slab Hit-Test",
+          "6 Procedural Credential Emblems"
+        ],
+        "script": "credentials_field.luau"
+      }
+    }
+  }
+}

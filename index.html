@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ahmad Fozail Amiri — Cloud &amp; DevOps Engineer</title>
+  <meta name="description" content="Curriculum vitae and live architecture portfolio for Ahmad Fozail Amiri, Cloud & DevOps Engineer.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23090a0d'/%3E%3Ccircle cx='16' cy='16' r='9' fill='none' stroke='%23e56b38' stroke-width='2.4'/%3E%3Ccircle cx='16' cy='16' r='3' fill='%233b8ef3'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="preload" href="assets/portrait.jpg" as="image" fetchpriority="high">
+  <link rel="stylesheet" href="styles/main.css">
+  <script src="runtime/rive.js" defer></script>
+</head>
+<body>
+  <div id="paper-grain" aria-hidden="true"></div>
+
+  <!-- Left-Edge Interactive Arcade Pac-Man Section Navigator -->
+  <nav id="pacman-nav" aria-label="Section Navigation"></nav>
+
+  <!-- Centered Main Editorial Column -->
+  <main id="dossier-main">
+
+    <!-- OVERVIEW (HERO) -->
+    <section id="overview" class="chapter chapter-hero" data-section="0">
+      <div class="hero-backdrop" aria-hidden="true">
+        <canvas id="canvas-field" width="1400" height="700"></canvas>
+      </div>
+
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <h1 class="hero-title">Ahmad Fozail Amiri</h1>
+
+          <p class="hero-lead">
+            Designing and operating production Azure AKS, AWS CDK, and bare-metal VMware infrastructure — from US remote cloud platforms to campus core networks.
+          </p>
+
+          <dl class="spec-ledger">
+            <div>
+              <dt>Tenure</dt>
+              <dd><strong>7+ yrs</strong> <span>2019 — 2026</span></dd>
+            </div>
+            <div>
+              <dt>Cloud Stack</dt>
+              <dd><strong>4 platforms</strong> <span>Azure · AWS · VMware · Oracle</span></dd>
+            </div>
+            <div>
+              <dt>Credentials</dt>
+              <dd><strong>Net+ · Sec+ · CEH</strong> <span>CCNA · LPIC-1 · MCSA</span></dd>
+            </div>
+            <div>
+              <dt>Leadership</dt>
+              <dd><strong>Led 2–4 engs</strong> <span>+ Univ. Lecturer &amp; Lab TA</span></dd>
+            </div>
+          </dl>
+
+          <div class="hero-contacts">
+            <button class="contact-link" data-copy="fozail23@proton.me" type="button" title="Copy email">
+              <span class="mono-k">e:</span> fozail23@proton.me
+            </button>
+            <a class="contact-link" href="https://github.com/fozael" target="_blank" rel="noreferrer">
+              <span class="mono-k">gh:</span> github.com/fozael
+            </a>
+            <a class="contact-link" href="https://www.linkedin.com/in/ahmad-fozail-amiri" target="_blank" rel="noreferrer">
+              <span class="mono-k">in:</span> ahmad-fozail-amiri
+            </a>
+            <button class="contact-link" data-copy="+93 728651703" type="button" title="Copy phone">
+              <span class="mono-k">t:</span> +93 728651703
+            </button>
+          </div>
+        </div>
+
+        <div class="hero-portrait">
+          <div class="portrait-stage">
+            <div id="portrait-medallion" class="portrait-medallion" role="button" tabindex="0" aria-label="Pulse background grid wave">
+              <img id="portrait-clear" class="portrait-clear" src="assets/portrait.jpg" width="640" height="640" fetchpriority="high" decoding="async" alt="Ahmad Fozail Amiri">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCTION ARCHITECTURES -->
+    <section id="architecture" class="chapter" data-section="1">
+      <div class="chapter-head">
+        <div class="chapter-head-main">
+          <span class="chapter-ghost" aria-hidden="true">Production Architectures</span>
+          <h2><span class="title-slash" aria-hidden="true">/</span>Production Architectures</h2>
+        </div>
+      </div>
+
+      <div id="era-tabs" class="era-tabs" role="tablist" aria-label="Career Eras"></div>
+
+      <div class="topology-open">
+        <div class="chamber-stage topology-ratio">
+          <canvas id="canvas-topology" width="1080" height="520" aria-label="Interactive live microservices cloud architecture diagram"></canvas>
+        </div>
+
+        <div class="chamber-controls">
+          <div id="service-inspector" class="service-inspector" aria-live="polite"></div>
+
+          <div class="ctl-actions">
+            <div class="speed-group" role="group" aria-label="Traffic cadence">
+              <button class="speed-btn" type="button" data-speed="0.5" aria-pressed="false">0.5&times;</button>
+              <button class="speed-btn" type="button" data-speed="1" aria-pressed="true">1&times;</button>
+              <button class="speed-btn" type="button" data-speed="1.5" aria-pressed="false">1.5&times;</button>
+            </div>
+            <button id="btn-failover" class="btn-chamber" type="button" aria-pressed="false">Simulate Failover</button>
+            <button id="btn-scan" class="btn-chamber" type="button">Scan</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DELIVERY PIPELINES -->
+    <section id="delivery" class="chapter" data-section="2">
+      <div class="chapter-head">
+        <div class="chapter-head-main">
+          <span class="chapter-ghost" aria-hidden="true">Delivery Pipelines</span>
+          <h2><span class="title-slash" aria-hidden="true">/</span>Delivery Pipelines</h2>
+        </div>
+      </div>
+
+      <div id="wt-delivery" class="wt-window" data-view="git" data-preset="0">
+        <div class="wt-titlebar">
+          <div id="pipeline-presets" class="wt-tabs" role="tablist" aria-label="CI/CD Pipeline Tabs"></div>
+
+          <div class="wt-tab-tools">
+            <button id="btn-term-reset" class="wt-tab-add" type="button" title="Reset & replay session">+</button>
+          </div>
+
+          <div class="wt-win-btns">
+            <span class="wt-win-btn" aria-hidden="true">&#x2500;</span>
+            <span class="wt-win-btn" aria-hidden="true">&#x25A1;</span>
+            <button id="btn-wt-close" class="wt-win-btn wt-win-close" type="button" title="Return to Git Terminal">&times;</button>
+          </div>
+        </div>
+
+        <div class="wt-viewport">
+          <div class="wt-view wt-view-git" id="wt-view-git">
+            <div class="wt-term-body" id="term-body">
+              <div class="sc-out" id="term-out" role="log" aria-live="polite"></div>
+              <label class="sc-line sc-input-line" id="term-input-line">
+                <span class="sc-prompt" id="term-prompt"></span>
+                <span class="sc-typed-wrap" id="term-typed-wrap">
+                  <span class="sc-typed" id="term-typed"></span><span class="sc-caret" aria-hidden="true"></span>
+                </span>
+                <input id="term-input" class="sc-input" type="text" placeholder="git push" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" aria-label="Terminal command">
+              </label>
+            </div>
+          </div>
+
+          <div class="wt-view wt-view-pipe" id="wt-view-pipe">
+            <div class="wt-pipe-bar wt-reveal-item" style="--reveal-delay: 40ms">
+              <div class="wt-pipe-meta">
+                <span class="wt-pipe-dot" aria-hidden="true"></span>
+                <span class="sc-title" id="run-title">Pipeline · queued</span>
+                <span class="wt-pipe-elapsed" id="run-elapsed">00:00.0</span>
+              </div>
+              <div class="wt-pipe-actions">
+                <span class="sc-status" id="run-status" data-state="idle">idle</span>
+                <button id="btn-back-git" class="wt-bar-btn" type="button">&larr; Git Terminal</button>
+              </div>
+            </div>
+
+            <div class="wt-pipe-canvas wt-reveal-item" style="--reveal-delay: 140ms">
+              <div class="chamber-stage pipeline-ratio">
+                <canvas id="canvas-pipeline" width="960" height="238" aria-label="Interactive branching CI/CD DAG sequencer"></canvas>
+              </div>
+            </div>
+
+            <div class="nx-split">
+              <div class="nx-tasks">
+                <div class="nx-pane-head wt-reveal-item" style="--reveal-delay: 240ms">
+                  <span>TASKS</span>
+                  <span id="nx-task-count" class="nx-count">0/6</span>
+                </div>
+                <ol id="nx-task-list" class="nx-task-list"></ol>
+              </div>
+              <div class="nx-output">
+                <div class="nx-pane-head wt-reveal-item" style="--reveal-delay: 320ms">
+                  <span id="nx-out-title">STREAM · ALL STAGES</span>
+                  <div class="nx-out-actions">
+                    <button id="btn-nx-all" class="nx-mini-btn" type="button" aria-pressed="true">All</button>
+                    <button id="btn-nx-inspect" class="nx-mini-btn" type="button" hidden></button>
+                  </div>
+                </div>
+                <div class="nx-out-body sc-log wt-reveal-item" id="run-log" style="--reveal-delay: 420ms" role="log" aria-live="polite"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CAREER TRAJECTORY -->
+    <section id="trajectory" class="chapter" data-section="3">
+      <div class="chapter-head">
+        <div class="chapter-head-main">
+          <span class="chapter-ghost" aria-hidden="true">Career Trajectory</span>
+          <h2><span class="title-slash" aria-hidden="true">/</span>Career Trajectory</h2>
+        </div>
+      </div>
+
+      <div class="scale-split">
+        <div class="dial-pedestal">
+          <div class="dial-wrap" id="dial-drag-zone" title="Drag shape or select a stage">
+            <canvas id="canvas-dial" width="360" height="360" aria-label="Interactive abstract career trajectory sculpture"></canvas>
+          </div>
+          <p class="dial-hint">Drag shape or select a stage</p>
+        </div>
+
+        <div class="milestones-column">
+          <ol id="milestone-list" class="milestone-list"></ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- TECHNICAL STACK -->
+    <section id="stack" class="chapter" data-section="4">
+      <div class="chapter-head">
+        <div class="chapter-head-main">
+          <span class="chapter-ghost" aria-hidden="true">Technical Stack</span>
+          <h2><span class="title-slash" aria-hidden="true">/</span>Technical Stack</h2>
+        </div>
+      </div>
+
+      <div id="stack-stage" class="stack-stage">
+        <svg id="stack-links-svg" class="stack-links-svg" aria-hidden="true"></svg>
+        <div class="astrolabe-center">
+          <div class="astrolabe-wrap">
+            <canvas id="canvas-skills" width="720" height="660" aria-label="Interactive capability astrolabe with 18 official technology icons"></canvas>
+          </div>
+        </div>
+        <aside id="stack-panels" class="stack-panels" aria-hidden="true" aria-live="polite"></aside>
+      </div>
+    </section>
+
+    <!-- BACKGROUND & CREDENTIALS -->
+    <section id="background" class="chapter" data-section="5">
+      <div class="chapter-head">
+        <div class="chapter-head-main">
+          <span class="chapter-ghost" aria-hidden="true">Background &amp; Credentials</span>
+          <h2><span class="title-slash" aria-hidden="true">/</span>Background &amp; Credentials</h2>
+        </div>
+      </div>
+
+      <div class="cred-split">
+        <div class="strata-pedestal">
+          <div class="strata-wrap" id="cred-strata-zone" title="Hover to tilt, click any layer">
+            <canvas id="canvas-credentials" width="360" height="380" aria-label="Interactive 6-layer isometric credentials verification stack"></canvas>
+          </div>
+          <p class="dial-hint">Hover to tilt · click any layer or credential</p>
+        </div>
+
+        <div class="milestones-column">
+          <ol id="cred-milestone-list" class="cred-ledger"></ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT & COLOPHON -->
+    <section id="contact" class="chapter chapter-dispatch" data-section="6">
+      <div class="contact-grid">
+        <div class="dispatch-left">
+          <div class="dispatch-links">
+            <button class="dispatch-item" data-copy="fozail23@proton.me" type="button">
+              <span class="dl-k">Email</span>
+              <span class="dl-v">fozail23@proton.me</span>
+              <span class="dl-act">Copy</span>
+            </button>
+            <button class="dispatch-item" data-copy="+93 728651703" type="button">
+              <span class="dl-k">Phone</span>
+              <span class="dl-v">+93 728651703</span>
+              <span class="dl-act">Copy</span>
+            </button>
+            <a class="dispatch-item" href="https://github.com/fozael" target="_blank" rel="noreferrer">
+              <span class="dl-k">GitHub</span>
+              <span class="dl-v">github.com/fozael</span>
+              <span class="dl-act">Open &nearr;</span>
+            </a>
+            <a class="dispatch-item" href="https://www.linkedin.com/in/ahmad-fozail-amiri" target="_blank" rel="noreferrer">
+              <span class="dl-k">LinkedIn</span>
+              <span class="dl-v">linkedin.com/in/ahmad-fozail-amiri</span>
+              <span class="dl-act">Open &nearr;</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="dispatch-right">
+          <div class="beacon-stage">
+            <canvas id="canvas-contact-beacon" width="400" height="360" aria-label="Interactive 3D Fibonacci orbital telemetry globe"></canvas>
+            <div class="beacon-meta">
+              <span>34.35°N · 62.20°E</span>
+              <span id="beacon-clock">UTC+4:30</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="colophon">
+        <span>Ahmad Fozail Amiri · Curriculum Vitae · March 25, 2026</span>
+        <span>Hotkeys: <code>1–4</code> Topologies · <code>F</code> Failover · <code>D</code> Deploy · <code>X</code> Rive X-Ray</span>
+      </footer>
+    </section>
+  </main>
+
+  <!-- Docked Rive Runtime Inspector Drawer (Hotkey: X) -->
+  <aside id="xray-drawer" class="xray-drawer" aria-hidden="true">
+    <div class="xray-head">
+      <div>
+        <h3>Rive Runtime Inspector</h3>
+      </div>
+      <button id="btn-xray-close" class="xray-close" type="button" aria-label="Close inspector">&times;</button>
+    </div>
+
+    <div id="xray-summary" class="xray-summary"></div>
+    <div id="xray-boards" class="xray-boards"></div>
+
+    <div class="xray-log-section">
+      <div class="xray-log-head">
+        <span>Live Rive Events &amp; ViewModel Stream</span>
+        <button id="btn-xray-clear" type="button">Clear</button>
+      </div>
+      <ul id="xray-log" class="xray-log"></ul>
+    </div>
+  </aside>
+
+  <div id="toast" role="status" aria-live="polite"></div>
+
+  <script type="module" src="src/app.js"></script>
+</body>
+</html>
